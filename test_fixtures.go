@@ -1,7 +1,8 @@
 package db
 
 import (
-	"gitea.mediatek.inc/go/db/config"
+	"github.com/harryli1688/go-db/config"
+	"github.com/harryli1688/go-otel-xorm"
 
 	"github.com/go-testfixtures/testfixtures/v3"
 	"xorm.io/xorm"

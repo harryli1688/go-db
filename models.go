@@ -10,8 +10,8 @@ import (
 	"path"
 	"strings"
 
-	"gitea.mediatek.inc/go/db/config"
-	otelxorm "gitea.mediatek.inc/go/otel-xorm"
+	"github.com/harryli1688/go-db/config"
+	otelxorm "github.com/harryli1688/go-otel-xorm"
 
 	// Needed for the MySQL driver
 	_ "github.com/go-sql-driver/mysql"
